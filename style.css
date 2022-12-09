@@ -1,1 +1,36 @@
+:root {
+    --light: white;
+    --pink: rgb(160, 47, 139);
+    --dark: rgb(36, 23, 32);
+}
 
+* {
+    background: rgb(33, 32, 32);
+}
+
+body {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--pink)
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+
+code {
+    font-family: monospace;
+}
